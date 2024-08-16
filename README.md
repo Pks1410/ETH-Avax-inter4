@@ -8,9 +8,9 @@ The DegenToken contract is an ERC20 token with features for item redemption. It 
     4. Item4: Time Machine, price: 5000
     
 # Interact with the Contract:
-Mint Tokens: Only the contract owner can mint new tokens by calling the mint function with the recipient's address and the amount.
-Transfer Tokens: Users can transfer their tokens to others using the transfer function.
-Redeem Tokens: Users can redeem their tokens for items in the in-game store using the redeem function by specifying the item ID and quantity.
-Check Token Balance: Use the balanceOf function to check the token balance of any address.
-Burn Tokens: Users can burn (destroy) their own tokens using the burn function.
-Check Redeemed Items: Use the getRedeemedItems function to see the items a user has redeemed.
+Minting Tokens: The contract owner can generate new Degen tokens.
+Burning Tokens: Users can destroy their tokens to reduce the circulating supply.
+Token Transfers: Seamlessly transfer tokens between accounts.
+Item Redemption: Redeem tokens for specific items offered by the contract.
+Store Overview: Display available items for redemption.
+Redemption Tracking: Maintain a record of redeemed items for each user.
