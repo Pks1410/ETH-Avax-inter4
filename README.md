@@ -9,8 +9,13 @@ The DegenToken contract is an ERC20 token with features for item redemption. It 
     
 # Interact with the Contract:
 Minting Tokens: The contract owner can generate new Degen tokens.
+
 Burning Tokens: Users can destroy their tokens to reduce the circulating supply.
+
 Token Transfers: Seamlessly transfer tokens between accounts.
+
 Item Redemption: Redeem tokens for specific items offered by the contract.
+
 Store Overview: Display available items for redemption.
+
 Redemption Tracking: Maintain a record of redeemed items for each user.
